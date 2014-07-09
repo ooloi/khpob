@@ -1,0 +1,96 @@
+/*background*/
+
+body{
+    background-color: #aaaabb;
+    margin: 25px;
+}
+
+#background{
+    background-image: url('new_day.jpg');
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 300px;
+}
+
+/*player choices*/
+
+h1{
+    font-family: Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+input{
+    height: 100px;
+    width: 100px;
+    padding-top: 76px;
+    font-family: fantasy, Garamond, serif;
+    font-size: 14px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#kitty{
+    background-image: url('kitty.gif');
+}
+
+#hairball{
+    background-image: url('hairball_flower.png');
+}
+
+#piggy{
+    background-image: url(piggy.gif);
+}
+
+#orb{
+    background-image: url(focusing_orb.gif);
+    background-size: 80px 84px;                
+}
+
+#bureaucroc{
+    background-image: url(bureaucroc.gif);
+    background-size: 80px 72px;
+}
+
+/*game outcome*/
+
+#box{
+    height: 100px;
+    width: 250px;
+    padding-top: 20px;
+    background-color: white;
+    font-size: 36px
+}
+
+.flip{
+    display: inline-block;
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
+}
+
+h2{
+    font-family: Garamond, serif;
+    font-size: 1.25em;
+}
+
+/*play again button*/
+
+#again{
+    background-image: url(cubimal_hellbartender.gif);
+    height: 80px;
+    width: 80px;
+    padding-top: 0;
+    padding-bottom: 42px;
+}
+
+/*other*/
+
+p{
+    font-family: Garamond, serif;
+    font-size: 0.9em;
+}
+
+#footer{
+    position: relative;
+    top: 100px;
+}
