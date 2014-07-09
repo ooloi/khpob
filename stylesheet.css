@@ -6,7 +6,7 @@ body{
 }
 
 #background{
-    background-image: url('new_day.jpg');
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530408/3ef46724-07a4-11e4-8e05-6693ab0d0773.jpg');
     background-repeat: no-repeat;
     width: 540px;
     height: 300px;
@@ -31,24 +31,24 @@ input{
 }
 
 #kitty{
-    background-image: url('kitty.gif');
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530419/3f159a02-07a4-11e4-95ba-5d58af7c4be6.gif');
 }
 
 #hairball{
-    background-image: url('hairball_flower.png');
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530409/3ef6d9fa-07a4-11e4-8c22-5b01b0ef0e17.png');
 }
 
 #piggy{
-    background-image: url(piggy.gif);
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530420/3f1765a8-07a4-11e4-86f6-cd18b35b090f.gif');
 }
 
 #orb{
-    background-image: url(focusing_orb.gif);
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530417/3f0f4698-07a4-11e4-89f3-eb6091171e05.gif');
     background-size: 80px 84px;                
 }
 
 #bureaucroc{
-    background-image: url(bureaucroc.gif);
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530418/3f127fac-07a4-11e4-9c09-5f18a5cda268.gif');
     background-size: 80px 72px;
 }
 
@@ -76,7 +76,7 @@ h2{
 /*play again button*/
 
 #again{
-    background-image: url(cubimal_hellbartender.gif);
+    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530416/3f0b4f20-07a4-11e4-8a0a-4d23a961be9e.gif');
     height: 80px;
     width: 80px;
     padding-top: 0;
