@@ -1,65 +1,87 @@
 /*background*/
 
 body{
-    background-color: #aaaabb;
-    margin: 25px;
+    background-color: #aab;
+    margin: 22px;
 }
 
 #background{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530408/3ef46724-07a4-11e4-8e05-6693ab0d0773.jpg');
+    background-image: url('new_day.jpg');
     background-repeat: no-repeat;
     width: 540px;
     height: 300px;
+}
+
+/*general/other*/
+
+input{
+    height: 99px;
+    width: 99px;
+    padding-top: 77px;
+    font-family: fantasy, Garamond, serif;
+    font-size: 13px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    
+}
+
+input:hover, input:focus{
+    position: relative;
+    left: -4px;
+    top: -4px;
+    -moz-box-shadow: 7px 7px 11px #445;
+    -webkit-box-shadow: 7px 7px 11px #445;
+    box-shadow: 7px 7px 11px #445;
+}
+
+p{
+    font-family: Garamond, serif;
+    font-size: 0.9em;
+}
+
+#footer{
+    position: relative;
+    top: 121px;
 }
 
 /*player choices*/
 
 h1{
     font-family: Tahoma, sans-serif;
-    font-size: 3em;
-}
-
-input{
-    height: 100px;
-    width: 100px;
-    padding-top: 76px;
-    font-family: fantasy, Garamond, serif;
-    font-size: 14px;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: center;
+    font-size: 44px;
 }
 
 #kitty{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530419/3f159a02-07a4-11e4-95ba-5d58af7c4be6.gif');
+    background-image: url('kitty.gif');
 }
 
 #hairball{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530409/3ef6d9fa-07a4-11e4-8c22-5b01b0ef0e17.png');
+    background-image: url('hairball_flower.png');
 }
 
 #piggy{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530420/3f1765a8-07a4-11e4-86f6-cd18b35b090f.gif');
+    background-image: url('piggy.gif');
 }
 
 #orb{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530417/3f0f4698-07a4-11e4-89f3-eb6091171e05.gif');
+    background-image: url('focusing_orb.gif');
     background-size: 80px 84px;                
 }
 
 #bureaucroc{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530418/3f127fac-07a4-11e4-9c09-5f18a5cda268.gif');
+    background-image: url('bureaucroc.gif');
     background-size: 80px 72px;
 }
 
 /*game outcome*/
 
 #box{
-    height: 100px;
-    width: 250px;
-    padding-top: 20px;
-    background-color: white;
-    font-size: 36px
+    height: 111px;
+    width: 242px;
+    padding-top: 22px;
+    font-size: 33px
 }
 
 .flip{
@@ -70,27 +92,30 @@ input{
 
 h2{
     font-family: Garamond, serif;
-    font-size: 1.25em;
+    font-size: 22px;
 }
 
 /*play again button*/
 
 #again{
-    background-image: url('https://cloud.githubusercontent.com/assets/8074915/3530416/3f0b4f20-07a4-11e4-8a0a-4d23a961be9e.gif');
-    height: 80px;
-    width: 80px;
+    background-image: url('cubimal_hellbartender.gif');
+    height: 88px;
+    width: 88px;
     padding-top: 0;
     padding-bottom: 42px;
 }
 
-/*other*/
+/*counter*/
 
-p{
-    font-family: Garamond, serif;
-    font-size: 0.9em;
+#counter div{
+    background-color: #ccd;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 11px;
+    margin-left: 33px;
+    margin-top: 33px;
 }
 
-#footer{
-    position: relative;
-    top: 100px;
+#reset:hover, #reset:focus{
+    background-color: #99a;
 }
