@@ -60,22 +60,14 @@ $(document).ready(function(){
         ['bureaucroc', 'hairball', '<h2>Bureaucroc bores hairball flower.</h2><div id="box"><img src="bureaucroc.gif" width="80px" height="72px"> &#8669; <img src="hairball_flower_loses.png"></div>']
     ];
 
-    //get opponent's choice
-    function getOC(num){
-        if(num<=0.2){
-            return('kitty');
-        }else if(num<=0.4){
-            return('hairball');
-        }else if(num<=0.6){
-            return('piggy');
-        }else if(num<=0.8){
-            return('orb');
-        }else if(num<=1){
-            return('bureaucroc');
-        }
+    //randomly select choice from array
+    function randomChoice(choiceArray){
+        var c = Math.round(Math.random() * (choiceArray.length - 1));
+        return choiceArray[c];
     }
-    
-    var oppC = getOC(Math.random());
+
+    //get opponent's choice
+    var oppC = randomChoice(['kitty', 'hairball', 'piggy', 'orb', 'bureaucroc']);
 
     //core gameplay
     function khpob(pc, oc){
