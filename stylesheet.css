@@ -119,3 +119,11 @@ h2{
 #reset:hover, #reset:focus{
     background-color: #99a;
 }
+
+a {
+    color: #1e662e;
+}
+
+a:hover, a:focus {
+    color: #32b54e;
+}
